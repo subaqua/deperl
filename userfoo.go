@@ -65,7 +65,8 @@ func main() {
   }
 
   // and read the hashtable
-  
+
+  fmt.Printf("\n")
   fmt.Printf("Shell of the devil is: [%s]\n", zusers["daemon"])
   fmt.Printf("El fin\n")
 }
