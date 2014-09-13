@@ -48,7 +48,7 @@ func main() {
   sdata := string(fdata[:count-1])
   fmt.Printf("[%s]\n", sdata)
 
-  // now for the final coup de gra, put this into a usable hash table and select something from it
+  // now for the final coup de grace, put this into a usable hash table and select something from it
 
   ary := strings.Split(sdata, "\n")
   zusers := make(map[string]string)
